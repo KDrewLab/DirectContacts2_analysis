@@ -1,5 +1,5 @@
 # DirectContacts2_analysis
-    Proteins carry out cellular functions by self-assembling into functional complexes, a process that depends on direct physical interactions between components. Predicting whether proteins are directly interacting is an outstanding challenge. DirectContacts2 addresses this challenge by integrating diverse large-scale protein interaction datasets, including AP/MS (BioPlex1–3, Boldt et al., Hein et al.), biochemical fractionation (Wan et al.), proximity labeling (Gupta et al., Youn et al.), and RNA pulldown (Treiber et al.), to predict whether ~26 million human protein pairs interact directly or indirectly.
+Proteins carry out cellular functions by self-assembling into functional complexes, a process that depends on direct physical interactions between components. Predicting whether proteins are directly interacting is an outstanding challenge. DirectContacts2 addresses this challenge by integrating diverse large-scale protein interaction datasets, including AP/MS (BioPlex1–3, Boldt et al., Hein et al.), biochemical fractionation (Wan et al.), proximity labeling (Gupta et al., Youn et al.), and RNA pulldown (Treiber et al.), to predict whether ~26 million human protein pairs interact directly or indirectly.
 
 ## Funding
 
