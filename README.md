@@ -18,10 +18,10 @@ All code is available as Jupyter notebooks. There are notebooks which outline:
   3. Testing the model (with advice to use [ProteinComplexMaps](https://github.com/KDrewLab/protein_complex_maps.git) to generate Precision-Recall curves to evaluate performance.
   4. Making predictions for ~26 million protein pairs in the full feature matrix
 
-All files for training, testing, and evaluating the model can be found on [HuggingFace](https://huggingface.co/datasets/sfisch/DirectContacts2/tree/main). Our model is built using [AutoGluon]() and to utilize our trained model **note that version 0.4.0 is needed**. If you decide to train a model from scratch, you may use newer versions of AutoGluon.
+All files for training, testing, and evaluating the model can be found on [HuggingFace](https://huggingface.co/datasets/sfisch/DirectContacts2/tree/main). Our model is built using [AutoGluon]() and to utilize our trained model **note that version 0.8.2 is needed**. If you decide to train a model from scratch, you may use newer versions of AutoGluon.
 
   ```bash
-  $ pip install autogluon==0.4.0
+  $ pip install autogluon==0.8.2
   ```
 
 ### Accessing feature matrix files
@@ -50,7 +50,7 @@ To pull from HuggingFace and use as a pandas dataframe:
   full_featmat = pd.read_csv(full_file, compression="gzip")
   ```
 ### Accessing the DirectContacts2 model
-The [DirectContacts2 model](https://huggingface.co/sfisch/DirectContacts2_AutoGluon) can also be downloaded from HuggingFace using the *huggingface_hub* module as seen in **generating_predictions_w_DirectContacts2.ipynb** and **DirectContacts2_testing.ipynb**. **Reminder:** That version 0.4.0 of AutoGluon is required for making predictions with our model.
+The [DirectContacts2 model](https://huggingface.co/sfisch/DirectContacts2_AutoGluon) can also be downloaded from HuggingFace using the *huggingface_hub* module as seen in **generating_predictions_w_DirectContacts2.ipynb** and **DirectContacts2_testing.ipynb**. **Reminder:** That version 0.8.2 of AutoGluon is required for making predictions with our model.
 
   ```python
   from autogluon.tabular import TabularPredictor
