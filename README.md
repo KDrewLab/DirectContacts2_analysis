@@ -68,5 +68,5 @@ In brief, after you have made your predictions on the test set (see **DirectCont
 
 Example commandline:
   ```bash
-(python2) user@computer$ python protein_complex_maps/protein_complex_maps/evaluation/plots/prcurve.py --results_wprob DirectContacts2_autogluon_test.pairsWprob --labels DirectContacts2 --input_positives test_direct_interactions_pdbsize5_20240326.txt --input_negatives test_INdirect_interactions_pdbsize5_20240326.txt --output_file DirectContacts2_test_eval_PR_curve_02JUL2025.pdf --complete_benchmark --add_tiny_noise
+(python2) user@computer$ python protein_complex_maps/protein_complex_maps/evaluation/plots/prcurve.py --results_wprob ./DirectContacts2_autogluon_test.pairsWprob --labels DirectContacts2 --input_positives ./test_direct_interactions_pdbsize5_20240326.txt --input_negatives ./test_INdirect_interactions_pdbsize5_20240326.txt --output_file ./DirectContacts2_test_eval_PR_curve_02JUL2025.pdf --complete_benchmark --add_tiny_noise
   ```
