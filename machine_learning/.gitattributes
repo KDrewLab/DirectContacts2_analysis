@@ -1,0 +1,6 @@
+DirectContacts2_building_benchmark_from_interactome3D.ipynb filter=lfs diff=lfs merge=lfs -text
+DirectContacts2_testing.ipynb filter=lfs diff=lfs merge=lfs -text
+DirectContacts2_training.ipynb filter=lfs diff=lfs merge=lfs -text
+generating_predictions_w_DirectContacts2.ipynb filter=lfs diff=lfs merge=lfs -text
+DirectContacts2_autogluon_test_example.pairsWprob filter=lfs diff=lfs merge=lfs -text
+DirectContacts2_unlabeledpredictions_first_500pairs.pairsWprob filter=lfs diff=lfs merge=lfs -text
