@@ -23,6 +23,7 @@ All files for training, testing, and evaluating the model can be found on [Huggi
   ```bash
   $ pip install autogluon==0.8.2
   ```
+Users can also just directly install just the *autogluon.tabular* module to save on space if necessary
 
 ### Accessing feature matrix files
 
@@ -56,8 +57,8 @@ The [DirectContacts2 model](https://huggingface.co/sfisch/DirectContacts2_AutoGl
   from autogluon.tabular import TabularPredictor
   from huggingface_hub import snapshot_download
 
-  model_dir = snapshot_download(repo_id="sfisch/hu.MAP3.0_AutoGluon")
-  predictor = TabularPredictor.load(f"{model_dir}/huMAP3_20230503_complexportal_subset10kNEG_notScaled_accuracy")
+  model_dir = snapshot_download(repo_id="sfisch/DirectContacts2_AutoGluon")
+  predictor = TabularPredictor.load(f"{model_dir}/DirectContacts2_Autogluon_Model_20240326")
   ```
 ### Accessing other testing/training data
 All test/train complexes and interactions can be found on [HuggingFace](https://huggingface.co/datasets/sfisch/DirectContacts2/tree/main/reference_interactions)
