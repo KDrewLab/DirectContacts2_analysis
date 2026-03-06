@@ -19,7 +19,8 @@ All code is available as Jupyter notebooks. There are notebooks which outline:
   4. Making predictions for ~26 million protein pairs in the full feature matrix
 
 #### To properly clone entire repo, make sure to use git-lfs:
-    ```bash
+   
+    ```
     $ sudo apt install git-lfs
     $ git lfs install
     $ git clone https://github.com/KDrewLab/DirectContacts2_analysis.git
