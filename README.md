@@ -18,6 +18,15 @@ All code is available as Jupyter notebooks. There are notebooks which outline:
   3. Testing the model (with advice to use [ProteinComplexMaps](https://github.com/KDrewLab/protein_complex_maps.git) to generate Precision-Recall curves to evaluate performance.
   4. Making predictions for ~26 million protein pairs in the full feature matrix
 
+#### To properly clone entire repo, make sure to use git-lfs:
+    ```bash
+    $ sudo apt install git-lfs
+    $ git lfs install
+    $ git clone https://github.com/KDrewLab/DirectContacts2_analysis.git
+    $ cd DirectContacts2_analysis
+    $ git lfs pull
+    ```
+
 All files for training, testing, and evaluating the model can be found on [HuggingFace](https://huggingface.co/datasets/sfisch/DirectContacts2/tree/main). Our model is built using [AutoGluon](https://auto.gluon.ai/stable/index.html) and to utilize our trained model **note that version 0.8.2 is needed**. If you decide to train a model from scratch, you may use newer versions of AutoGluon.
 
   ```bash
